@@ -21,52 +21,30 @@ You will find this is far easier than the opposite task of using CSS to cram you
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
-    color: Green;
-    font; Gothica
+}
+
+.container {
+    max-width: 1200px;
+    margin:  0 auto;
+    padding: 5px;
+}
+
+.container.photo{
+    padding: 0px;
 }
 
 img {
-    display: block;
-    width:  75%;
+    width: 100%;
 }
 
-.container{
-    max-width: 1200 px;
-    margin: 100 auto;
-    padding: 0px;
-
-}
-
-.container.photo 
-    padding: 100 px
-}
-
-
-.flex > div {
-
-    margin-bottom: 10px;
-}
-
-p.caption{
-    font-size: .9rem;
-    Color:  gray;
-    margin:  0;
-    justify-content: center;
-}
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
 *********************************************************************/
 @media(min-width: 681px) {
     /* Any adjustments for tablets and larger go here.
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
-.flex {
-    display: flex;
-    justify-content: space-between;
 }
 
-.flex > div {
-    flex-basis: 30%;
-} 
 /*********************************************************************
   YOUR DESKTOP-ONLY STYLES GO HERE
 *********************************************************************/
