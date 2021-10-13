@@ -24,29 +24,80 @@ html, body {
     color: Black;
     background-color: #f5a96d;
 }
-img {
-    display: block;
-    width:  100%;
+
+.table{
+ display: block;   
 }
 
 
-.container {
-    max-width: 1200px;
+img {
+    width:  100%;
+    height: 70%;
+    align-content: center;
+    margin: auto;
+
+  }
+
+.icon-container img {
+    max-width: 60px;
     margin:  0auto;
     padding: 5px;
+    align-content: center;
+
+}
+
+
+h1{
+      font-size: 25px;
+     text-align: center;
+
+ } 
+
+h2{
+      font-size: 15px;
+     text-align: left;
+     padding-left: 10px;
+     text-anchor: end ;
+     font-weight: normal
+
+
+
+}
+h3{
+    font-size: 15px;
+    text-align: Left;
+    padding-left: 10px;
+
+    font-weight: normal
+}
+h4{
+    font-size: 15px;
+    text-align: Left;
+    padding-left: 10px;
+
+    font-weight: normal
+}
+h5{
+
+    font-size: 15px;
+    text-align: center;
+    color: Black;
+    font-weight: bold ;
 }
 
 .container.photo{
     padding: 0px;
 
 }
-
-.flex > div {
-    margin-bottom: 10px;
+.flex-container{ 
+    display: flex; 
+flex-flow: row wrap;
+justify-content: space-around;
+padding-bottom: 15px;
 }
 
 p.caption{
-    font-size: .9rem;
+    font-size: .6rem;
     Color:  gray;
     margin:  0;
 }
